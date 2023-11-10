@@ -1,11 +1,8 @@
-humage = int(input('Input a dog age in human years: '))
-
-if humage < 0:
-	print('Age must be positive number')
-	
-elif humage <= 2:
-	doage = humage * 10.5
+human = int(input('Nhập tuổi người:'))
+if human < 0:
+	print('Thông báo tuổi không hợp lệ')
+elif human <= 2:
+	dog = human * 10.5
 else:
-	doage = 21 + (humage - 2)*4
-
-print('The dog age is', doage)
+	dog = 21 + (human - 2)*4
+print('Số tuổi của chú chó là:', dog)
