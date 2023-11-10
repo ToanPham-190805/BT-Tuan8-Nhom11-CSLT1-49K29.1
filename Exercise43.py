@@ -1,8 +1,5 @@
 denomination=str(input("The denomination of the bank note is "))
-
 individual="George Washington"
-
-
 if denomination=="$1":
     individual="George Washington"
     print("The name on the note is ", individual)
